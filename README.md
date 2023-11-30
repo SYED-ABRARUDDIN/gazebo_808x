@@ -22,6 +22,7 @@ Firstly, navigate to the source code folder in your workspace ([ros2_ws]/src) an
 # Clone the repository
   git clone https://github.com/SYED-ABRARUDDIN/gazebo_808x.git
 ```
+```sh
 # Go back to the ros2 workspace:
   cd ../..
 # Make sure there are no dangling dependencies using rosdep
@@ -30,15 +31,13 @@ Firstly, navigate to the source code folder in your workspace ([ros2_ws]/src) an
   colcon build --packages-select gazebo_controller
 # Install the package:
   source install/setup.bash
-
-  
 ```
+
 To run the launch file that executes the simulation, run the following command.
 ```sh
 # Run the Simulation
   ros2 launch gazebo_controller gazebo_turtlebot.launch.py record_bag:=True
 ```
-
 
 To replay the bag run the following commands from where you have launch your file.
 ```sh
