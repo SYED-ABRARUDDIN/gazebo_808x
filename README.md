@@ -1,4 +1,4 @@
-# gWeek 9 Gazebo controller
+# Week 9 Gazebo controller
 
 ## Abrarudddin Syed (120109997)
  ROS 2 Programming Assignment 'Working with Gazebo'
@@ -30,6 +30,8 @@ Firstly, navigate to the source code folder in your workspace ([ros2_ws]/src) an
   colcon build --packages-select gazebo_turtlebot_controller
 # Install the package:
   source install/setup.bash
+
+  
 ```
 To run the launch file that executes the simulation, run the following command.
 ```sh
