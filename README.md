@@ -27,7 +27,7 @@ Firstly, navigate to the source code folder in your workspace ([ros2_ws]/src) an
 # Make sure there are no dangling dependencies using rosdep
   rosdep install -i --from-path src --rosdistro humble -y
 # Build the package:
-  colcon build --packages-select gazebo_turtlebot_controller
+  colcon build --packages-select gazebo_controller
 # Install the package:
   source install/setup.bash
 
